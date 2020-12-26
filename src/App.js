@@ -1,18 +1,18 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { Template } from './Newsgread/Template';
+import { Template } from './Template';
 import { Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-        <Switch>
-            {/* <Route exact path="/" render={() => (
+      <Switch>
+        {/* <Route exact path="/" render={() => (
                <Redirect to="/home" />
             )}/> */}
-            <Route path="/" component={Template} /> 
-          </Switch>
+        <Route path="/" component={Template} />
+      </Switch>
     </div>
   );
 }

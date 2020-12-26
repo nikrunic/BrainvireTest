@@ -1,0 +1,9 @@
+.selectTag {
+  padding-top: 5px;
+}
+.selectTag .ant-card {
+  margin-bottom: 5px;
+}
+.selectTag .ant-card-body {
+  padding: 5px 10px;
+}
